@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
     <link rel="icon" href="/img/webIcon.svg">
     <title>MovieSearcher</title>
     <style>
@@ -16,7 +17,7 @@
 <body>
     <div id="app" v-cloak>
         <div class="header">
-            <div class="logo">
+            <div class="logo" @click="scrollToTop()">
                 <img src="img/logo.png" alt="">
             </div>
             <div class="blank"></div>
@@ -25,8 +26,9 @@
                 <div class="nav" @click="getNowPlaying(1)">現正熱映</div>
                 <div class="nav" @click="getTopMovie(1)">強勢推薦</div>
                 <div class="nav" @click="getUpcoming(1)">即將推出</div>
-                <div class="nav">聯絡我們</div>
+                <div class="nav" @click="getPreview()">電影預告</div>
             </div>
+            <div class="navBar_mobile"><i class="fa-solid fa-bars"></i></div>
         </div>
         <div class="banner"></div>
         <div class="search">
@@ -40,7 +42,7 @@
                 <div class="line"></div>
             </div>
             <div class="content-main">
-                <div class="movieList">
+                <div class="movieList" v-if="pageType==1">
                     <div class="movieBlock" v-for="obj in MovieList.results" v-if="obj['poster_path']!=null && isLoaded">
                         <img :src="'https://image.tmdb.org/t/p/w400'+obj['poster_path']" alt="">
                         <div class="date" v-text="obj['release_date']"></div>
@@ -48,7 +50,7 @@
                             <i class="fa-regular fa-star"></i> {{(obj['vote_average']).toFixed(1)}}/10.0
                         </div>
                         <div class="movieDetail">
-                            <div class="detail" v-text="obj['overview']"></div>
+                            <a :href="'https://image.tmdb.org/t/p/w500'+obj['backdrop_path']" data-lightbox="image-1" data-title="My caption"><div class="detail" v-text="obj['overview']"></div></a>
                         </div>
                     </div>
                     <div v-if="isLoaded" class="pageChanger">
@@ -57,6 +59,14 @@
                         <div class="arrow right" @click="changePageIndex('next')"><i class="fa-solid fa-chevron-right"></i></div>
                         <div class="totalSize">共 {{totalPages}} 頁</div>
                     </div>
+                    <div v-else class="loadingBlock"></div>
+                </div>
+                <div class="movieList" v-if="pageType==2">
+                    <div v-if="isLoaded" class="previewBlock" v-for="obj in previewList['items']">
+                        <div class="previewTitle" v-text="obj['snippet']['title']"></div>
+                        <div class="pre_video"><iframe class="video" :src="'https://www.youtube.com/embed/'+obj['id']['videoId']"></iframe></div>
+                    </div>
+                    <div v-if="isLoaded"></div>
                     <div v-else class="loadingBlock"></div>
                 </div>
             </div>
@@ -71,6 +81,7 @@
 <script src="js/three.js"></script>
 <script src="js/halo.js"></script>
 <script src="https://kit.fontawesome.com/026fbb8b51.js" crossorigin="anonymous"></script>
+<script src="js/lightbox-plus-jquery.min.js"></script>
 <script src="js/index.js"></script>
 <script>
     VANTA.HALO({
@@ -78,7 +89,14 @@
     mouseControls: true,
     touchControls: true,
     gyroControls: false,
-    minHeight: 200.00,
-    minWidth: 200.00
+    })
+</script>
+<script>
+    lightbox.option({
+        'wrapAround':true,
+        'resizeDuration': 400,
+        'alwaysShowNavOnTouchDevices':true,
+        'disableScrolling':true,
+        'positionFromTop':240
     })
 </script>

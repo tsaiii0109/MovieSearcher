@@ -1,0 +1,725 @@
+{
+    "kind": "youtube#searchListResponse",
+    "pageInfo": {
+        "totalResults": 22,
+        "resultsPerPage": 21
+    },
+    "regionCode": "ZZ",
+    "items": [
+        {
+            "kind": "youtube#searchResult",
+            "id": {
+                "videoId": "mTU8K9IRkaQ",
+                "kind": "youtube#video"
+            },
+            "snippet": {
+                "description": "我們是宇宙超級明星？ 一起展開奇幻的宇宙冒險吧！ 【#電影版 淘氣小企鵝啵樂樂 超級明星大冒險】電影 ...",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-12-08T04:00:12Z",
+                "channelTitle": "GaragePlay 車庫娛樂",
+                "channelId": "UCyNixargb5VhzNV2URJRubA",
+                "thumbnails": {
+                    "default": {
+                        "width": 120,
+                        "url": "https://i.ytimg.com/vi/mTU8K9IRkaQ/default.jpg",
+                        "height": 90
+                    },
+                    "medium": {
+                        "width": 320,
+                        "url": "https://i.ytimg.com/vi/mTU8K9IRkaQ/mqdefault.jpg",
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/mTU8K9IRkaQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "title": "啵樂樂大人來囉！【電影版 淘氣小企鵝啵樂樂 超級明星大冒險】Pororo Popstar Adventure 韓語版電影預告 和啵樂樂一起前往藍色石行星吧！ 12/29(五) 國語版全台上映！",
+                "publishedAt": "2023-12-08T04:00:12Z"
+            },
+            "etag": "MDgwZZgpnnihhrSIYpDuGLwKHIQ"
+        },
+        {
+            "snippet": {
+                "thumbnails": {
+                    "high": {
+                        "width": 480,
+                        "url": "https://i.ytimg.com/vi/QrDfxTqoBW8/hqdefault.jpg",
+                        "height": 360
+                    },
+                    "medium": {
+                        "width": 320,
+                        "height": 180,
+                        "url": "https://i.ytimg.com/vi/QrDfxTqoBW8/mqdefault.jpg"
+                    },
+                    "default": {
+                        "width": 120,
+                        "height": 90,
+                        "url": "https://i.ytimg.com/vi/QrDfxTqoBW8/default.jpg"
+                    }
+                },
+                "publishedAt": "2023-12-07T13:00:09Z",
+                "channelId": "UCyNixargb5VhzNV2URJRubA",
+                "channelTitle": "GaragePlay 車庫娛樂",
+                "description": "我們是宇宙超級明星？ 一起展開奇幻的宇宙冒險吧！ 【#電影版淘氣小企鵝啵樂樂超級明星大冒險】電影 ...",
+                "publishTime": "2023-12-07T13:00:09Z",
+                "liveBroadcastContent": "none",
+                "title": "啵樂樂大人來囉！【電影版 淘氣小企鵝啵樂樂 超級明星大冒險】Pororo Popstar Adventure 國語版電影預告 和啵樂樂一起前往藍色石行星吧！ 12/29(五) 國語版全台上映！"
+            },
+            "kind": "youtube#searchResult",
+            "etag": "2QCISD4VQVQx0IS_SC0N69FGC-I",
+            "id": {
+                "videoId": "QrDfxTqoBW8",
+                "kind": "youtube#video"
+            }
+        },
+        {
+            "etag": "GUuTY_65y3qXjiuDoehc40-Bh3U",
+            "kind": "youtube#searchResult",
+            "id": {
+                "videoId": "aStzI2RgxYs",
+                "kind": "youtube#video"
+            },
+            "snippet": {
+                "publishedAt": "2023-12-05T13:00:11Z",
+                "publishTime": "2023-12-05T13:00:11Z",
+                "title": "極道鮮師化身蒙面的一拳超人！【一拳鮮師：勇敢的市民】Brave Citizen 電影預告 申惠善X李濬榮 熱血動作鉅獻！2024.1月 拳人教育",
+                "thumbnails": {
+                    "default": {
+                        "width": 120,
+                        "height": 90,
+                        "url": "https://i.ytimg.com/vi/aStzI2RgxYs/default.jpg"
+                    },
+                    "high": {
+                        "width": 480,
+                        "height": 360,
+                        "url": "https://i.ytimg.com/vi/aStzI2RgxYs/hqdefault.jpg"
+                    },
+                    "medium": {
+                        "width": 320,
+                        "url": "https://i.ytimg.com/vi/aStzI2RgxYs/mqdefault.jpg",
+                        "height": 180
+                    }
+                },
+                "liveBroadcastContent": "none",
+                "channelTitle": "GaragePlay 車庫娛樂",
+                "description": "做錯事的傢伙就得付出代價！ 無法溝通的話就該被教訓一頓！ 【#一拳鮮師：#勇敢的市民】電影介紹：https://garageplay.tw/4596 ...",
+                "channelId": "UCyNixargb5VhzNV2URJRubA"
+            }
+        },
+        {
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "a2ksaE0vdK4"
+            },
+            "snippet": {
+                "thumbnails": {
+                    "default": {
+                        "width": 120,
+                        "url": "https://i.ytimg.com/vi/a2ksaE0vdK4/default.jpg",
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/a2ksaE0vdK4/mqdefault.jpg",
+                        "height": 180,
+                        "width": 320
+                    },
+                    "high": {
+                        "height": 360,
+                        "width": 480,
+                        "url": "https://i.ytimg.com/vi/a2ksaE0vdK4/hqdefault.jpg"
+                    }
+                },
+                "channelTitle": "GaragePlay 車庫娛樂",
+                "title": "《玩命關頭系列》傑森史塔森最強動作演出！【蜂刑者】The Beekeeper 電影預告 2024年震撼大銀幕",
+                "liveBroadcastContent": "none",
+                "description": "蜂刑者】電影介紹：https://garageplay.tw/4652 上映日期：2024年☆ 《玩命關頭X》動作巨星傑森史塔森近年最強動作演出☆ ...",
+                "channelId": "UCyNixargb5VhzNV2URJRubA",
+                "publishedAt": "2023-12-05T10:35:27Z",
+                "publishTime": "2023-12-05T10:35:27Z"
+            },
+            "kind": "youtube#searchResult",
+            "etag": "MJekcWcl8AmSWCHHfaSwg-DdFMc"
+        },
+        {
+            "kind": "youtube#searchResult",
+            "snippet": {
+                "title": "韓國下半年票房NO.1！【12.12：首爾之春】12.12: The Day 電影預告 黃晸玟X鄭雨盛X李星民 震撼動作鉅獻！12/15(五) 全臺上映",
+                "publishTime": "2023-12-04T02:19:51Z",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/-VOuZKMx8eY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "height": 180,
+                        "width": 320,
+                        "url": "https://i.ytimg.com/vi/-VOuZKMx8eY/mqdefault.jpg"
+                    },
+                    "high": {
+                        "height": 360,
+                        "width": 480,
+                        "url": "https://i.ytimg.com/vi/-VOuZKMx8eY/hqdefault.jpg"
+                    }
+                },
+                "channelTitle": "GaragePlay 車庫娛樂",
+                "publishedAt": "2023-12-04T02:19:51Z",
+                "channelId": "UCyNixargb5VhzNV2URJRubA",
+                "description": "真實事件改編！ 首都首爾發生軍事政變民主歷史上最糟糕的一天觀眾滿意度99%超高分好評盛讚！ 【12.12：#首爾之春】電影 ...",
+                "liveBroadcastContent": "none"
+            },
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "-VOuZKMx8eY"
+            },
+            "etag": "_65EJNVtmGPJdAxJdFdA0hckiy8"
+        },
+        {
+            "kind": "youtube#searchResult",
+            "snippet": {
+                "title": "今天全台上映！【無聲夜】全台大銀幕熱映中🔥",
+                "thumbnails": {
+                    "default": {
+                        "height": 90,
+                        "url": "https://i.ytimg.com/vi/by1mDGkehEU/default.jpg",
+                        "width": 120
+                    },
+                    "high": {
+                        "width": 480,
+                        "height": 360,
+                        "url": "https://i.ytimg.com/vi/by1mDGkehEU/hqdefault.jpg"
+                    },
+                    "medium": {
+                        "height": 180,
+                        "url": "https://i.ytimg.com/vi/by1mDGkehEU/mqdefault.jpg",
+                        "width": 320
+                    }
+                },
+                "publishedAt": "2023-12-01T10:59:07Z",
+                "liveBroadcastContent": "none",
+                "description": "慢~~動~~作~~~~~全面解析#吳宇森！ 帶你進入吳宇森的動作世界   「國際動作電影大師」吳宇森最新動作巨作  《無聲夜》今天在 ...",
+                "publishTime": "2023-12-01T10:59:07Z",
+                "channelTitle": "GaragePlay 車庫娛樂",
+                "channelId": "UCyNixargb5VhzNV2URJRubA"
+            },
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "by1mDGkehEU"
+            },
+            "etag": "LTxaLW4gxaSJbpbX8GkasEABh6g"
+        },
+        {
+            "snippet": {
+                "description": "明天！星期五！打爆他們  ！！！！ ​ 【無聲夜】12/1(五) 全台大銀幕上映   ​ 國際動作電影大師​ #吳宇森最新動作巨作坐而言 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/vVp_9oq-9gA/default.jpg",
+                        "height": 90,
+                        "width": 120
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/vVp_9oq-9gA/hqdefault.jpg",
+                        "height": 360,
+                        "width": 480
+                    },
+                    "medium": {
+                        "height": 180,
+                        "url": "https://i.ytimg.com/vi/vVp_9oq-9gA/mqdefault.jpg",
+                        "width": 320
+                    }
+                },
+                "publishTime": "2023-11-30T13:30:00Z",
+                "channelTitle": "GaragePlay 車庫娛樂",
+                "channelId": "UCyNixargb5VhzNV2URJRubA",
+                "liveBroadcastContent": "none",
+                "title": "敢動我兒子！看我還不打爆他們👊【無聲夜】12/1(五) 全台大銀幕上映🔥",
+                "publishedAt": "2023-11-30T13:30:00Z"
+            },
+            "etag": "0o1NdOLubLF7M0njz7LaFwAC7VQ",
+            "kind": "youtube#searchResult",
+            "id": {
+                "videoId": "vVp_9oq-9gA",
+                "kind": "youtube#video"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "wZg0GPSwCbI"
+            },
+            "etag": "5obbK-O45oRVx34rs44Yk0CuZqE",
+            "snippet": {
+                "channelTitle": "GaragePlay 車庫娛樂",
+                "title": "只在大銀幕🔥 國際動作電影大師 #吳宇森 最新動作巨作【無聲夜】預售票熱賣中‼",
+                "channelId": "UCyNixargb5VhzNV2URJRubA",
+                "thumbnails": {
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/wZg0GPSwCbI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "width": 480,
+                        "url": "https://i.ytimg.com/vi/wZg0GPSwCbI/hqdefault.jpg",
+                        "height": 360
+                    },
+                    "default": {
+                        "height": 90,
+                        "width": 120,
+                        "url": "https://i.ytimg.com/vi/wZg0GPSwCbI/default.jpg"
+                    }
+                },
+                "publishedAt": "2023-11-29T11:06:53Z",
+                "description": "只在大銀幕   國際動作電影大師#吳宇森最新動作巨作【無聲夜】全台各大影城開放預售，預售票熱賣中‼ 立刻買票，星期五就去 ...",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-11-29T11:06:53Z"
+            }
+        },
+        {
+            "snippet": {
+                "publishTime": "2023-11-28T13:00:10Z",
+                "description": "他們遇上比死亡更可怕的終極恐怖【#鬼6怨】電影介紹：https://garageplay.tw/4638 上映日期：2023.12.15 (五) 《#攔截聲命線》 ...",
+                "thumbnails": {
+                    "default": {
+                        "width": 120,
+                        "url": "https://i.ytimg.com/vi/xiAAJ2rG1N8/default.jpg",
+                        "height": 90
+                    },
+                    "high": {
+                        "height": 360,
+                        "url": "https://i.ytimg.com/vi/xiAAJ2rG1N8/hqdefault.jpg",
+                        "width": 480
+                    },
+                    "medium": {
+                        "height": 180,
+                        "width": 320,
+                        "url": "https://i.ytimg.com/vi/xiAAJ2rG1N8/mqdefault.jpg"
+                    }
+                },
+                "publishedAt": "2023-11-28T13:00:10Z",
+                "title": "前所未見的驚悚電影【鬼6怨】Tastes of Horror 電影預告 最毛骨悚然的駭人祕密 12/15(五) 鬼影幢幢",
+                "liveBroadcastContent": "none",
+                "channelTitle": "GaragePlay 車庫娛樂",
+                "channelId": "UCyNixargb5VhzNV2URJRubA"
+            },
+            "kind": "youtube#searchResult",
+            "etag": "uJ6nb8tDAJllBLXmcx5pvtVNngI",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "xiAAJ2rG1N8"
+            }
+        },
+        {
+            "snippet": {
+                "description": "死亡只能殺死你一次，但愛能殺你千千萬萬次… 【#送葬人】電影介紹：https://garageplay.tw/4636 上映日期:2023.12.22 ⚰️ 黑馬 ...",
+                "channelId": "UCyNixargb5VhzNV2URJRubA",
+                "liveBroadcastContent": "none",
+                "channelTitle": "GaragePlay 車庫娛樂",
+                "title": "賣破7億泰銖創影史票房奇蹟！僅次《淒厲人妻》登泰國影史第二高票房【送葬人】Undertaker 電影預告 12/22(五) 大銀幕席捲全台",
+                "thumbnails": {
+                    "high": {
+                        "height": 360,
+                        "width": 480,
+                        "url": "https://i.ytimg.com/vi/KOFSLlDHw6s/hqdefault.jpg"
+                    },
+                    "default": {
+                        "height": 90,
+                        "width": 120,
+                        "url": "https://i.ytimg.com/vi/KOFSLlDHw6s/default.jpg"
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/KOFSLlDHw6s/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    }
+                },
+                "publishTime": "2023-11-28T02:04:14Z",
+                "publishedAt": "2023-11-28T02:04:14Z"
+            },
+            "kind": "youtube#searchResult",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "KOFSLlDHw6s"
+            },
+            "etag": "dLDMAd0nAf16PuMShPb4j9fpuDQ"
+        },
+        {
+            "kind": "youtube#searchResult",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "EPqOBOvAXLk"
+            },
+            "etag": "LlOSd65gP-Y9Ch80iEfZJAQBrRA",
+            "snippet": {
+                "publishTime": "2023-11-27T07:44:50Z",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/EPqOBOvAXLk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/EPqOBOvAXLk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "height": 360,
+                        "width": 480,
+                        "url": "https://i.ytimg.com/vi/EPqOBOvAXLk/hqdefault.jpg"
+                    }
+                },
+                "channelTitle": "GaragePlay 車庫娛樂",
+                "publishedAt": "2023-11-27T07:44:50Z",
+                "title": "全球票房冠軍！「《飢餓遊戲》系列至今最好看的一集！」《飢餓遊戲：鳴鳥與游蛇之歌》現正熱映中！",
+                "liveBroadcastContent": "none",
+                "channelId": "UCyNixargb5VhzNV2URJRubA",
+                "description": "飢餓遊戲：鳴鳥與游蛇之歌】現正熱映中   IMAX、Dolby Cinema、4DX、MX4D 全版本同步熱映！ ​ 「《飢餓 ..."
+            }
+        },
+        {
+            "snippet": {
+                "liveBroadcastContent": "none",
+                "thumbnails": {
+                    "high": {
+                        "height": 360,
+                        "width": 480,
+                        "url": "https://i.ytimg.com/vi/LVOXEo5Kpks/hqdefault.jpg"
+                    },
+                    "medium": {
+                        "width": 320,
+                        "height": 180,
+                        "url": "https://i.ytimg.com/vi/LVOXEo5Kpks/mqdefault.jpg"
+                    },
+                    "default": {
+                        "height": 90,
+                        "width": 120,
+                        "url": "https://i.ytimg.com/vi/LVOXEo5Kpks/default.jpg"
+                    }
+                },
+                "publishTime": "2023-11-27T05:00:10Z",
+                "channelTitle": "GaragePlay 車庫娛樂",
+                "description": "得知KEY和泰民確定為成員時，珉豪的心情竟是？ 【My SHINee World】電影介紹：https://garageplay.tw/4595 上映日期：現正熱映 ...",
+                "title": "SHINee出道15年首部專屬電影【My SHINee World】特別影片 SHINee問→SHINee回答！Dolby Atmos全臺同步熱映中！",
+                "channelId": "UCyNixargb5VhzNV2URJRubA",
+                "publishedAt": "2023-11-27T05:00:10Z"
+            },
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "LVOXEo5Kpks"
+            },
+            "etag": "Dy2hLTT7AucMxYCrrjzl8Pz-8gg",
+            "kind": "youtube#searchResult"
+        },
+        {
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "_DbCAQafck0"
+            },
+            "snippet": {
+                "publishedAt": "2023-11-23T13:00:09Z",
+                "channelTitle": "GaragePlay 車庫娛樂",
+                "thumbnails": {
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/_DbCAQafck0/hqdefault.jpg",
+                        "height": 360,
+                        "width": 480
+                    },
+                    "medium": {
+                        "height": 180,
+                        "width": 320,
+                        "url": "https://i.ytimg.com/vi/_DbCAQafck0/mqdefault.jpg"
+                    },
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/_DbCAQafck0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    }
+                },
+                "title": "懸疑恐怖鉅獻【水鬼】Bottom of the Water 電影預告 我妹妹變成了另一個人…12/8(五) 你也別想逃",
+                "channelId": "UCyNixargb5VhzNV2URJRubA",
+                "description": "媽媽為什麼不來？我好餓… ” 在韓國有個不能接近的水庫… 【#水鬼】電影介紹：https://garageplay.tw/4639 上映日期：2023.12.8 ...",
+                "publishTime": "2023-11-23T13:00:09Z",
+                "liveBroadcastContent": "none"
+            },
+            "kind": "youtube#searchResult",
+            "etag": "9MKY_tTbvAvCYf-Jk39XPqBO73A"
+        },
+        {
+            "etag": "vxfNfeNF1ldedrElFNZnLCzUAHY",
+            "id": {
+                "videoId": "uMxtz0_yjuk",
+                "kind": "youtube#video"
+            },
+            "snippet": {
+                "channelTitle": "GaragePlay 車庫娛樂",
+                "publishTime": "2023-11-23T04:00:18Z",
+                "title": "這也親的太火熱了吧😳姜河那 x 庭沼珉【30日】11/24 (五)全台上映💖",
+                "liveBroadcastContent": "none",
+                "thumbnails": {
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/uMxtz0_yjuk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "default": {
+                        "height": 90,
+                        "width": 120,
+                        "url": "https://i.ytimg.com/vi/uMxtz0_yjuk/default.jpg"
+                    },
+                    "medium": {
+                        "width": 320,
+                        "url": "https://i.ytimg.com/vi/uMxtz0_yjuk/mqdefault.jpg",
+                        "height": 180
+                    }
+                },
+                "publishedAt": "2023-11-23T04:00:18Z",
+                "channelId": "UCyNixargb5VhzNV2URJRubA",
+                "description": "心臟炸裂   心律不整「那我們現在要接吻嗎？ 」 ​ 韓國年度愛情電影NO.1✨ 蟬聯三週韓國票房冠軍✨ 觀眾滿意度高達96%✨ ..."
+            },
+            "kind": "youtube#searchResult"
+        },
+        {
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "PzXDsT2ViIc"
+            },
+            "etag": "_F55iwhHmw7f_KVwewv_EMPAK6s",
+            "snippet": {
+                "description": "一同揭開命案背後的驚人真相吧！ 【#全羅道少年殺人事件】電影介紹：https://garageplay.tw/4599 上映日期：2023.12.1 (五) ...",
+                "publishTime": "2023-11-23T04:00:07Z",
+                "channelTitle": "GaragePlay 車庫娛樂",
+                "publishedAt": "2023-11-23T04:00:07Z",
+                "channelId": "UCyNixargb5VhzNV2URJRubA",
+                "thumbnails": {
+                    "medium": {
+                        "height": 180,
+                        "width": 320,
+                        "url": "https://i.ytimg.com/vi/PzXDsT2ViIc/mqdefault.jpg"
+                    },
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/PzXDsT2ViIc/default.jpg",
+                        "height": 90,
+                        "width": 120
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/PzXDsT2ViIc/hqdefault.jpg",
+                        "height": 360,
+                        "width": 480
+                    }
+                },
+                "liveBroadcastContent": "none",
+                "title": "搜查課班長重新調查費解命案【全羅道少年殺人事件】The Boys 薛景求X劉俊相X許城泰X廉惠蘭 向臺灣觀眾問好！ 12/1(五) 虛擒假義"
+            },
+            "kind": "youtube#searchResult"
+        },
+        {
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "fhyqDxO-jSA"
+            },
+            "etag": "d6SjQXzfmvGbyTDfoVKQ8wZeFTU",
+            "snippet": {
+                "channelId": "UCyNixargb5VhzNV2URJRubA",
+                "liveBroadcastContent": "none",
+                "thumbnails": {
+                    "medium": {
+                        "height": 180,
+                        "url": "https://i.ytimg.com/vi/fhyqDxO-jSA/mqdefault.jpg",
+                        "width": 320
+                    },
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/fhyqDxO-jSA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "high": {
+                        "width": 480,
+                        "height": 360,
+                        "url": "https://i.ytimg.com/vi/fhyqDxO-jSA/hqdefault.jpg"
+                    }
+                },
+                "description": "愛情，就像電影一樣   所有的相遇，都是命中注定。 - ♡ 今年韓國最賣座的愛情電影♡ #姜河那x #庭沼珉【30日】11/24 (五)全台 ...",
+                "publishedAt": "2023-11-22T04:00:15Z",
+                "publishTime": "2023-11-22T04:00:15Z",
+                "title": "愛情，就像電影一樣【30日】姜河那 x 庭沼珉 11/24 (五)全台上映",
+                "channelTitle": "GaragePlay 車庫娛樂"
+            },
+            "kind": "youtube#searchResult"
+        },
+        {
+            "snippet": {
+                "thumbnails": {
+                    "medium": {
+                        "height": 180,
+                        "width": 320,
+                        "url": "https://i.ytimg.com/vi/rFILi_q4DQI/mqdefault.jpg"
+                    },
+                    "high": {
+                        "height": 360,
+                        "width": 480,
+                        "url": "https://i.ytimg.com/vi/rFILi_q4DQI/hqdefault.jpg"
+                    },
+                    "default": {
+                        "width": 120,
+                        "height": 90,
+                        "url": "https://i.ytimg.com/vi/rFILi_q4DQI/default.jpg"
+                    }
+                },
+                "publishTime": "2023-11-21T09:00:39Z",
+                "channelTitle": "GaragePlay 車庫娛樂",
+                "liveBroadcastContent": "none",
+                "publishedAt": "2023-11-21T09:00:39Z",
+                "channelId": "UCyNixargb5VhzNV2URJRubA",
+                "title": "為了我心愛的女人！我....我....我什麼都願意！【30日】姜河那 x 庭沼珉 11/24 (五)全台上映​",
+                "description": "今年韓國最賣座的愛情電影♡ 姜河那x 庭沼珉【30日】11/24 (五)全台上映​ ❤️ 韓國年度愛情電影NO.1 蟬聯三週韓國票房 ..."
+            },
+            "etag": "0Q9xjJM5Sc9lebCz-mOeZVoQVIA",
+            "id": {
+                "videoId": "rFILi_q4DQI",
+                "kind": "youtube#video"
+            },
+            "kind": "youtube#searchResult"
+        },
+        {
+            "id": {
+                "videoId": "L-o-mi2Ao2k",
+                "kind": "youtube#video"
+            },
+            "snippet": {
+                "channelTitle": "GaragePlay 車庫娛樂",
+                "thumbnails": {
+                    "medium": {
+                        "width": 320,
+                        "height": 180,
+                        "url": "https://i.ytimg.com/vi/L-o-mi2Ao2k/mqdefault.jpg"
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/L-o-mi2Ao2k/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "default": {
+                        "width": 120,
+                        "height": 90,
+                        "url": "https://i.ytimg.com/vi/L-o-mi2Ao2k/default.jpg"
+                    }
+                },
+                "channelId": "UCyNixargb5VhzNV2URJRubA",
+                "publishedAt": "2023-11-21T07:31:10Z",
+                "description": "稱霸台美票房冠軍  《#飢餓遊戲：鳴鳥與游蛇之歌》好評大噴發！空降#全台票房冠軍  爛番茄觀眾評分高達91%！好評熱映 ...",
+                "title": "稱霸台美票房冠軍🏆《飢餓遊戲：鳴鳥與游蛇之歌》好評大噴發！空降全台票房冠軍🔥爛番茄觀眾評分高達91%！好評熱映中🎉",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-11-21T07:31:10Z"
+            },
+            "kind": "youtube#searchResult",
+            "etag": "tTm6FAhmpSGBK8dGptz16_NRnOs"
+        },
+        {
+            "etag": "tquNx5tNND3ftvGvkBYjYVpA7mU",
+            "kind": "youtube#searchResult",
+            "snippet": {
+                "publishTime": "2023-11-21T06:33:16Z",
+                "title": "強勢問鼎2024奧斯卡！法拉利 VS 瑪莎拉蒂！【法拉利】Ferrari 正式預告 12/29(五) 決戰終點線",
+                "channelTitle": "GaragePlay 車庫娛樂",
+                "channelId": "UCyNixargb5VhzNV2URJRubA",
+                "liveBroadcastContent": "none",
+                "description": "法拉利】電影介紹：https://garageplay.tw/4549 上映日期：2023.12.29 ☆2023威尼斯影展競賽片☆《奧本海默》《絕地營救》製片 ...",
+                "publishedAt": "2023-11-21T06:33:16Z",
+                "thumbnails": {
+                    "default": {
+                        "width": 120,
+                        "height": 90,
+                        "url": "https://i.ytimg.com/vi/xRKOWdy-axw/default.jpg"
+                    },
+                    "medium": {
+                        "height": 180,
+                        "width": 320,
+                        "url": "https://i.ytimg.com/vi/xRKOWdy-axw/mqdefault.jpg"
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/xRKOWdy-axw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                }
+            },
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "xRKOWdy-axw"
+            }
+        },
+        {
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "TMWzVlg0vdM"
+            },
+            "kind": "youtube#searchResult",
+            "etag": "CSs_WrUHN4gyz-m5ZVzIkFFlJOs",
+            "snippet": {
+                "title": "今年最賣座愛情電影【30日】Love Reset 精彩幕後花絮 姜河那X庭沼珉 大展自毀形象的炸裂演技！11/24(五) 瘋中奇緣",
+                "publishedAt": "2023-11-20T13:00:11Z",
+                "channelTitle": "GaragePlay 車庫娛樂",
+                "liveBroadcastContent": "none",
+                "description": "在完全重置的狀況中… 還能再次相愛嗎？ 或是會因為想起不好的記憶而分手呢？ 【#30日】電影介紹：https://garageplay.tw/4597 ...",
+                "channelId": "UCyNixargb5VhzNV2URJRubA",
+                "thumbnails": {
+                    "high": {
+                        "height": 360,
+                        "width": 480,
+                        "url": "https://i.ytimg.com/vi/TMWzVlg0vdM/hqdefault.jpg"
+                    },
+                    "medium": {
+                        "height": 180,
+                        "width": 320,
+                        "url": "https://i.ytimg.com/vi/TMWzVlg0vdM/mqdefault.jpg"
+                    },
+                    "default": {
+                        "height": 90,
+                        "url": "https://i.ytimg.com/vi/TMWzVlg0vdM/default.jpg",
+                        "width": 120
+                    }
+                },
+                "publishTime": "2023-11-20T13:00:11Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "id": {
+                "videoId": "UqySuo618WI",
+                "kind": "youtube#video"
+            },
+            "snippet": {
+                "title": "✨年度開票前三名✨町田啓太感謝臺灣粉絲的熱情歡迎【電影版 勿說是推理】Don&#39;t Call It Mystery The Movie 電影預告 現正熱映中！",
+                "channelId": "UCyNixargb5VhzNV2URJRubA",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-11-17T11:00:34Z",
+                "description": "《電影版勿說是推理》在台盛大上映✨ 獲年度在台上映日本真人電影開票前三名✨ 町田啓太日前旋風訪臺舉辦首映活動特別錄製影片 ...",
+                "publishedAt": "2023-11-17T11:00:34Z",
+                "thumbnails": {
+                    "default": {
+                        "width": 120,
+                        "url": "https://i.ytimg.com/vi/UqySuo618WI/default.jpg",
+                        "height": 90
+                    },
+                    "medium": {
+                        "width": 320,
+                        "height": 180,
+                        "url": "https://i.ytimg.com/vi/UqySuo618WI/mqdefault.jpg"
+                    },
+                    "high": {
+                        "height": 360,
+                        "width": 480,
+                        "url": "https://i.ytimg.com/vi/UqySuo618WI/hqdefault.jpg"
+                    }
+                },
+                "channelTitle": "GaragePlay 車庫娛樂"
+            },
+            "etag": "JxOY6XICsHqlCPnX6tKrX_5rdFM"
+        }
+    ],
+    "etag": "wSZZhvKGklBAnFRZLzR1jjV6yOg"
+}

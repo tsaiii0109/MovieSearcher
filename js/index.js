@@ -7,6 +7,7 @@ const vm =new Vue({
             currentName:'',
             searchName:'',
         },
+        previewList:[],
         fetchBody:{
             imgUrl:'https://image.tmdb.org/t/p/w400/',
             Authorization:'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzOGVhZjk1NmVhNDU5MDhhZThmYTg1MTFiMDI0NGYyMSIsInN1YiI6IjY1NzE2NTk0YjA0NjA1MDEzYTM3NWQzMiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.T270smknuHJROMDDrX881owKFSw1lTQvTSX18Afjfsc'
@@ -15,6 +16,7 @@ const vm =new Vue({
         pageId:1,
         totalPages:0,
         isLoaded:false,
+        pageType:1,
     },
     methods:{
         init(){
@@ -24,6 +26,7 @@ const vm =new Vue({
             })
         },
         searchMovie(index){
+            this.pageType=1;
             this.isLoaded=false;
             this.currentMethod=this.searchMovie;
             this.contentTopName='搜尋結果';
@@ -46,6 +49,7 @@ const vm =new Vue({
             .catch(err => console.error(err));
         },
         getPopularMovie(index){
+            this.pageType=1;
             this.searchFlag.searchName='';
             this.isLoaded=false;
             this.currentMethod=this.getPopularMovie;
@@ -69,6 +73,7 @@ const vm =new Vue({
             .catch(err => console.error(err));
         },
         getNowPlaying(index){
+            this.pageType=1;
             this.searchFlag.searchName='';
             this.isLoaded=false;
             this.currentMethod=this.getNowPlaying;
@@ -92,6 +97,7 @@ const vm =new Vue({
             .catch(err => console.error(err));
         },
         getUpcoming(index){
+            this.pageType=1;
             this.searchFlag.searchName='';
             this.isLoaded=false;
             this.currentMethod=this.getUpcoming;
@@ -103,17 +109,18 @@ const vm =new Vue({
                   Authorization: this.fetchBody.Authorization
                 }
               };
-              fetch('https://api.themoviedb.org/3/movie/upcoming?language=zh-tw&page='+index, options)
-                .then(response => response.json())
-                .then(resp => {
-                    this.MovieList=resp;
-                    this.pageId=resp['page'];
-                    this.totalPages=resp['total_pages'];
-                    this.isLoaded=true;
-                })
-                .catch(err => console.error(err));
+            fetch('https://api.themoviedb.org/3/movie/upcoming?language=zh-tw&page='+index, options)
+            .then(response => response.json())
+            .then(resp => {
+                this.MovieList=resp;
+                this.pageId=resp['page'];
+                this.totalPages=resp['total_pages'];
+                this.isLoaded=true;
+            })
+            .catch(err => console.error(err));
         },
         getTopMovie(index){
+            this.pageType=1;
             this.searchFlag.searchName='';
             this.isLoaded=false;
             this.currentMethod=this.getTopMovie;
@@ -125,15 +132,15 @@ const vm =new Vue({
                   Authorization: this.fetchBody.Authorization
                 }
               };
-              fetch('https://api.themoviedb.org/3/movie/top_rated?language=zh-tw&page='+index, options)
-                .then(response => response.json())
-                .then(resp => {
-                    this.MovieList=resp;
-                    this.pageId=resp['page'];
-                    this.totalPages=resp['total_pages'];
-                    this.isLoaded=true;
-                })
-                .catch(err => console.error(err));
+            fetch('https://api.themoviedb.org/3/movie/top_rated?language=zh-tw&page='+index, options)
+            .then(response => response.json())
+            .then(resp => {
+                this.MovieList=resp;
+                this.pageId=resp['page'];
+                this.totalPages=resp['total_pages'];
+                this.isLoaded=true;
+            })
+            .catch(err => console.error(err));
         },
         changePageIndex(flag){
             if(flag=='before' && this.pageId!=1){
@@ -144,6 +151,30 @@ const vm =new Vue({
                 this.pageId++;
                 this.currentMethod(this.pageId);
             }
+        },
+        getPreview(){
+            this.pageType=2;
+            this.searchFlag.searchName='';
+            this.isLoaded=false;
+            this.currentMethod=this.getPreview;
+            this.contentTopName='最新電影預告片';
+            const options = {
+                method: 'GET',
+                redirect:'follow'
+            };
+            fetch('https://script.google.com/macros/s/AKfycbxx4__DOyEnXGXwQlX7_ODgZVHmsyaMEVGi7GugXVdwp6p-19eGyEIJ7a7kxJJOH74/exec', options)
+            .then(response => response.json())
+            .then(resp => {
+                this.previewList=resp;
+                this.isLoaded=true;
+            })
+            .catch(err => console.error(err));
+        },
+        scrollToTop(){
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            })
         }
     }
 })
