@@ -21,11 +21,13 @@ const vm =new Vue({
     methods:{
         init(){
             this.getPopularMovie(1);
+            this.toggleBar();
             window.addEventListener('keydown',(e)=>{
-                if(e.key=='Enter' && this.searchFlag.searchName!='') this.searchMovie(1);
+                if(e.key=='Enter' && this.searchFlag.searchName!='') this.searchMovie(1,'auto');
             })
         },
-        searchMovie(index){
+        searchMovie(index,flag){
+            this.toggleBar(flag);
             this.pageType=1;
             this.isLoaded=false;
             this.currentMethod=this.searchMovie;
@@ -48,7 +50,8 @@ const vm =new Vue({
             })
             .catch(err => console.error(err));
         },
-        getPopularMovie(index){
+        getPopularMovie(index,flag){
+            this.toggleBar(flag);
             this.pageType=1;
             this.searchFlag.searchName='';
             this.isLoaded=false;
@@ -72,7 +75,8 @@ const vm =new Vue({
             })
             .catch(err => console.error(err));
         },
-        getNowPlaying(index){
+        getNowPlaying(index,flag){
+            this.toggleBar(flag);
             this.pageType=1;
             this.searchFlag.searchName='';
             this.isLoaded=false;
@@ -96,7 +100,8 @@ const vm =new Vue({
             })
             .catch(err => console.error(err));
         },
-        getUpcoming(index){
+        getUpcoming(index,flag){
+            this.toggleBar(flag);
             this.pageType=1;
             this.searchFlag.searchName='';
             this.isLoaded=false;
@@ -119,7 +124,8 @@ const vm =new Vue({
             })
             .catch(err => console.error(err));
         },
-        getTopMovie(index){
+        getTopMovie(index,flag){
+            this.toggleBar(flag);
             this.pageType=1;
             this.searchFlag.searchName='';
             this.isLoaded=false;
@@ -145,19 +151,20 @@ const vm =new Vue({
         changePageIndex(flag){
             if(flag=='before' && this.pageId!=1){
                 this.pageId--;
-                this.currentMethod(this.pageId);
+                this.currentMethod(this.pageId,'auto');
             } 
             else if(flag=='next' && this.pageId<this.totalPages){
                 this.pageId++;
-                this.currentMethod(this.pageId);
+                this.currentMethod(this.pageId,'auto');
             }
         },
         getPreview(){
+            this.toggleBar();
             this.pageType=2;
             this.searchFlag.searchName='';
             this.isLoaded=false;
             this.currentMethod=this.getPreview;
-            this.contentTopName='最新電影預告片';
+            this.contentTopName='最新預告';
             const options = {
                 method: 'GET',
                 redirect:'follow'
@@ -175,6 +182,11 @@ const vm =new Vue({
                 top: 0,
                 behavior: "smooth"
             })
+            this.toggleBar('close');
+        },
+        toggleBar(flag){
+            var dom =document.getElementById('navBar');
+            if(flag==undefined) dom.classList.toggle('showBar');
         }
     }
 })
