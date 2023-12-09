@@ -64,13 +64,15 @@
             <div class="content-main">
                 <div class="movieList" v-if="pageType==1">
                     <div class="movieBlock" v-for="obj in MovieList.results" v-if="obj['poster_path']!=null && isLoaded">
-                        <img :src="'https://image.tmdb.org/t/p/w400'+obj['poster_path']" alt="">
-                        <div class="date" v-text="obj['release_date']"></div>
-                        <div class="rate">
-                            <i class="fa-regular fa-star"></i> {{(obj['vote_average']).toFixed(1)}}/10.0
-                        </div>
-                        <div class="movieDetail">
-                            <a :href="'https://image.tmdb.org/t/p/w500'+obj['backdrop_path']" data-lightbox="image-1" data-title="My caption"><div class="detail" v-text="obj['overview']"></div></a>
+                        <div class="imgBlock">
+                            <img :src="'https://image.tmdb.org/t/p/w400'+obj['poster_path']" alt="">
+                            <div class="date" v-text="obj['release_date']"></div>
+                            <div class="rate">
+                                <i class="fa-regular fa-star"></i> {{(obj['vote_average']).toFixed(1)}}/10.0
+                            </div>
+                            <div class="movieDetail">
+                                <a :href="'https://image.tmdb.org/t/p/w500'+obj['backdrop_path']" data-lightbox="image-1" data-title="My caption"><div class="detail" v-text="obj['overview']"></div></a>
+                            </div>
                         </div>
                     </div>
                     <div v-if="isLoaded" class="pageChanger">

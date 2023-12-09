@@ -122,6 +122,13 @@ input:focus {
     margin: 4.5px;
     position: relative;
 }
+.movieBlock > .imgBlock {
+    width: 100%;
+    position: relative;
+}
+.imgBlock>img{
+    width: 100%;
+}
 .previewBlock{
     width: 100%;
     text-align: left;
@@ -159,7 +166,7 @@ input:focus {
     overflow: scroll;
     text-decoration: none;
 }
-.movieBlock:hover>.movieDetail{
+.movieBlock:hover .movieDetail{
     cursor: pointer;
     background-color: rgba(0,0,0,0.7);
     display: flex;
@@ -335,28 +342,29 @@ input:focus {
         justify-content: center;
         align-items: center;
     }
-    .movieBlock > img {
+    .movieBlock > .imgBlock {
         width: 300px;
         height: 450px;
         margin-left: 12px;
+        position: relative;
     }
     .date {
         position: absolute;
-        bottom: 30px;
-        left: 40px;
+        bottom: 15px;
+        left: 20px;
         color: white;
     }
     .rate {
         position: absolute;
-        bottom: 30px;
-        right: 30px;
+        bottom: 15px;
+        right: 20px;
         color: white;
     }
     .movieDetail {
         width: 300px;
         height: 450px;
-        left: 22px;
-        top: 10px;
+        top:0;
+        left:0;
     }
     .pageChanger {
         justify-content: left;
