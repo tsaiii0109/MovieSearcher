@@ -27,6 +27,7 @@ const vm =new Vue({
             })
         },
         searchMovie(index,flag){
+            this.scrollToTop();
             this.toggleBar(flag);
             this.pageType=1;
             this.isLoaded=false;
@@ -51,6 +52,7 @@ const vm =new Vue({
             .catch(err => console.error(err));
         },
         getPopularMovie(index,flag){
+            this.scrollToTop();
             this.toggleBar(flag);
             this.pageType=1;
             this.searchFlag.searchName='';
@@ -76,6 +78,7 @@ const vm =new Vue({
             .catch(err => console.error(err));
         },
         getNowPlaying(index,flag){
+            this.scrollToTop();
             this.toggleBar(flag);
             this.pageType=1;
             this.searchFlag.searchName='';
@@ -101,6 +104,7 @@ const vm =new Vue({
             .catch(err => console.error(err));
         },
         getUpcoming(index,flag){
+            this.scrollToTop();
             this.toggleBar(flag);
             this.pageType=1;
             this.searchFlag.searchName='';
@@ -125,6 +129,7 @@ const vm =new Vue({
             .catch(err => console.error(err));
         },
         getTopMovie(index,flag){
+            this.scrollToTop();
             this.toggleBar(flag);
             this.pageType=1;
             this.searchFlag.searchName='';
@@ -159,6 +164,7 @@ const vm =new Vue({
             }
         },
         getPreview(){
+            this.scrollToTop();
             this.toggleBar();
             this.pageType=2;
             this.searchFlag.searchName='';
