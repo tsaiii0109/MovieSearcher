@@ -184,8 +184,9 @@ const vm =new Vue({
             .catch(err => console.error(err));
         },
         scrollToTop(){
+            console.log('scroll')
             window.scrollTo({
-                top: 0,
+                top: 320,
                 behavior: "smooth"
             })
             this.toggleBar('close');
