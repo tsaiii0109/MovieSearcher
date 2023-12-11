@@ -184,7 +184,6 @@ const vm =new Vue({
             .catch(err => console.error(err));
         },
         scrollToTop(num){
-            console.log('scroll')
             window.scrollTo({
                 top: num==undefined?320:num,
                 behavior: "smooth"
