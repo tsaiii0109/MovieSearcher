@@ -52,7 +52,7 @@ const vm =new Vue({
             .catch(err => console.error(err));
         },
         getPopularMovie(index,flag){
-            this.scrollToTop();
+            this.scrollToTop(0);
             this.toggleBar(flag);
             this.pageType=1;
             this.searchFlag.searchName='';
@@ -183,10 +183,10 @@ const vm =new Vue({
             })
             .catch(err => console.error(err));
         },
-        scrollToTop(){
+        scrollToTop(num){
             console.log('scroll')
             window.scrollTo({
-                top: 320,
+                top: num==undefined?320:num,
                 behavior: "smooth"
             })
             this.toggleBar('close');
