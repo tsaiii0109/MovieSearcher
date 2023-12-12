@@ -1,6 +1,9 @@
 input:focus {
     outline: 0;
 }
+::-webkit-scrollbar{
+    width: 0;
+}
 .header{
     width: 100%;
     display: flex;
