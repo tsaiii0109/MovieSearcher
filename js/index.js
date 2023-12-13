@@ -53,7 +53,7 @@ const vm =new Vue({
             .catch(err => console.error(err));
         },
         getPopularMovie(index,flag){
-            this.scrollToTop();
+            this.scrollToTop(0);
             this.toggleBar(flag);
             this.pageType=1;
             this.searchFlag.searchName='';
