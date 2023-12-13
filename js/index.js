@@ -18,14 +18,15 @@ const vm =new Vue({
         isLoaded:false,
         pageType:1,
     },
+    mounted(){
+        this.getPopularMovie(1);
+        this.toggleBar();
+        window.addEventListener('keydown',(e)=>{
+            if(e.key=='Enter' && this.searchFlag.searchName!='') this.searchMovie(1,'auto');
+        })
+    }
+    ,
     methods:{
-        init(){
-            this.getPopularMovie(1);
-            this.toggleBar();
-            window.addEventListener('keydown',(e)=>{
-                if(e.key=='Enter' && this.searchFlag.searchName!='') this.searchMovie(1,'auto');
-            })
-        },
         searchMovie(index,flag){
             this.scrollToTop();
             this.toggleBar(flag);
@@ -196,4 +197,3 @@ const vm =new Vue({
         }
     }
 })
-vm.init();
