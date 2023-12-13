@@ -179,14 +179,14 @@ input:focus {
 .rate{
     font-size: 1.2vw;
     position: absolute;
-    bottom: 12px;
+    bottom: 15px;
     right: 12px;
     color: white;
 }
 .date{
     font-size: 1.2vw;
     position: absolute;
-    bottom: 12px;
+    bottom: 15px;
     left: 12px;
     color: white;
 }
