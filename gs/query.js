@@ -20,7 +20,6 @@ function getTime(){
 }
 function setList(results){
   listSheet.getDataRange().clear();
-  var str = sheet.getRange('A1').getValue();
   var obj = results.items;
   for(var i=0;i<obj.length;i++){
     var snippet =obj[i]['snippet']
