@@ -1,5 +1,4 @@
 const sheet =SpreadsheetApp.getActive().getSheetByName('main');
-const listSheet =SpreadsheetApp.getActive().getSheetByName('list');
 function doGet(){
   var data = sheet.getRange('A1').getValue();
   return ContentService.createTextOutput(data).setMimeType(ContentService.MimeType.JSON);
@@ -19,10 +18,10 @@ function getTime(){
   return new Date(new Date().getTime()-1000*86400*21).toISOString();
 }
 function setList(results){
-  listSheet.getDataRange().clear();
+  sheet.getRange("A2:C"+(sheet.getLastRow()+1)).clear();
   var obj = results.items;
   for(var i=0;i<obj.length;i++){
     var snippet =obj[i]['snippet']
-    listSheet.appendRow([snippet['title'],snippet['description'],snippet['publishTime']])
+    sheet.appendRow([snippet['title'],snippet['description'],snippet['publishTime']])
   }
 }
